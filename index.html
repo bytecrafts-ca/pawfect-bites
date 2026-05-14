@@ -117,17 +117,22 @@
             <p class="eyebrow">Proof</p>
             <h2 class="headline" id="proof-heading">See a dog enjoy it</h2>
             <p class="copy">
-              A short clip from a real pup tasting Pawfect Bites. Swap in your own recording anytime.
+              A short clip from a real pup tasting Pawfect Bites.
             </p>
           </header>
           <figure class="proof__figure reveal">
             <div class="proof__frame">
-              <!-- Put your MP4 in videos/proof-dog.mp4, or change the src below. For YouTube/Vimeo, replace this block with their embed iframe. -->
+              <div class="proof__youtube-host" id="proof-youtube-host" hidden></div>
+              <p class="proof__pending" id="proof-pending" hidden role="status">
+                We’ll add a clip of pups enjoying Pawfect Bites here soon.
+              </p>
               <video
                 class="proof__video"
+                id="proof-video"
                 controls
                 playsinline
-                preload="metadata"
+                preload="none"
+                poster="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=1280&q=80"
                 width="1280"
                 height="720"
                 aria-label="Video of a customer’s dog eating Pawfect Bites treats"
