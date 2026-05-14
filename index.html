@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Pawfect Bites: healthy cat and dog treats, human cookies, honest ingredients. Healthy pets, happy life."
+    />
+    <title>Pawfect Bites</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="#top">Pawfect Bites</a>
+        <nav class="nav" aria-label="On this page">
+          <a href="#treats">Treats</a>
+          <a href="#values">What we stand for</a>
+          <a href="#proof">Proof</a>
+          <a href="#purpose">Purpose</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-split" id="top" aria-labelledby="hero-heading">
+        <div class="hero-split__inner">
+          <div class="hero-split__text reveal">
+            <p class="eyebrow">Healthy pets, happy life.</p>
+            <h1 class="headline headline-accent" id="hero-heading">Treats for cats and dogs.</h1>
+            <p class="subhead">
+              Real ingredients. No fillers. No junk. Just good food for your pets.
+            </p>
+            <div class="pills" aria-hidden="true">
+              <span class="pill">4 per bag</span>
+              <span class="pill">Cat &amp; dog</span>
+            </div>
+          </div>
+          <div class="hero-split__media reveal">
+            <img
+              src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=600&q=80"
+              alt="Dog looking toward the camera"
+              width="600"
+              height="750"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="band" id="treats" aria-labelledby="treats-heading">
+        <div class="section-inner section-inner--wide split">
+          <div class="split__text reveal">
+            <p class="eyebrow">Products</p>
+            <h2 class="headline" id="treats-heading">Simple bags. Clear price.</h2>
+            <p class="copy">Cat treats and dog treats. Four pieces per bag. Mix flavors.</p>
+            <ul class="price-table">
+              <li class="price-row"><span>1 bag</span> <strong>$7</strong></li>
+              <li class="price-row"><span>2 bags</span> <strong>$9</strong></li>
+              <li class="price-row"><span>3 bags</span> <strong>$10</strong></li>
+            </ul>
+          </div>
+          <div class="split__media reveal">
+            <img
+              src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80"
+              alt="Orange tabby cat resting"
+              width="900"
+              height="1125"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="values" id="values" aria-labelledby="values-heading">
+        <div class="section-inner section-inner--wide">
+          <div class="reveal">
+            <p class="eyebrow">What we stand for</p>
+            <h2 class="headline" id="values-heading">Three promises in every batch</h2>
+            <p class="copy">Three things we hold ourselves to when we mix, bake, and seal a bag.</p>
+          </div>
+          <div class="values__grid reveal-stagger" style="margin-top: 40px">
+            <article class="value-card">
+              <div class="value-card__thumb">
+                <img
+                  src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=160&h=160&q=80"
+                  alt="Fresh vegetables in a bowl"
+                  width="160"
+                  height="160"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Ingredients you’d cook with</h3>
+              <p>Mostly the usual pantry stuff: meat, eggs, flour, oats, vegetables. If we can’t say what it is in one sentence, we skip it.</p>
+            </article>
+            <article class="value-card">
+              <div class="value-card__thumb">
+                <img
+                  src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=160&h=160&q=80"
+                  alt="Cat and dog together on a couch"
+                  width="160"
+                  height="160"
+                  loading="lazy"
+                />
+              </div>
+              <h3>Built for cats and dogs</h3>
+              <p>Cat treats are smaller and lighter; dog ones are a bit bigger and sturdier. Same idea, different bite so nobody’s chewing the wrong thing.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="band proof" id="proof" aria-labelledby="proof-heading">
+        <div class="section-inner section-inner--wide">
+          <header class="proof__intro reveal">
+            <p class="eyebrow">Proof</p>
+            <h2 class="headline" id="proof-heading">See a dog enjoy it</h2>
+            <p class="copy">
+              A short clip from a real pup tasting Pawfect Bites. Swap in your own recording anytime.
+            </p>
+          </header>
+          <figure class="proof__figure reveal">
+            <div class="proof__frame">
+              <!-- Put your MP4 in videos/proof-dog.mp4, or change the src below. For YouTube/Vimeo, replace this block with their embed iframe. -->
+              <video
+                class="proof__video"
+                controls
+                playsinline
+                preload="metadata"
+                width="1280"
+                height="720"
+                aria-label="Video of a customer’s dog eating Pawfect Bites treats"
+              >
+                <source src="videos/proof-dog.mp4" type="video/mp4" />
+                <p class="proof__fallback">
+                  Your browser cannot play this video.
+                  <a href="videos/proof-dog.mp4">Download the clip</a>
+                  instead.
+                </p>
+              </video>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section id="purpose" aria-labelledby="purpose-heading">
+        <div class="section-inner section-inner--wide split split--reverse">
+          <div class="split__text reveal">
+            <p class="eyebrow">Purpose</p>
+            <h2 class="headline" id="purpose-heading">If we wouldn’t eat it, we don’t feed it.</h2>
+            <p class="purpose-quote">The bar is simple: feed your companions like they’re family, because they are.</p>
+          </div>
+          <div class="split__media reveal">
+            <img
+              src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80"
+              alt="Cookies cooling on a wire rack"
+              width="900"
+              height="563"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" aria-label="Closing message">
+        <div class="section-inner">
+          <p class="closing__line reveal">Healthy pets, happy life.</p>
+          <p class="closing__sub reveal">Cat and dog treats, plus cookies for humans, from one kitchen.</p>
+          <div class="closing__glow" aria-hidden="true"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        © Pawfect Bites. Photos from
+        <a href="https://unsplash.com" rel="noopener noreferrer">Unsplash</a>
+      </div>
+    </footer>
+    <script src="js/site.js" defer></script>
+  </body>
+</html>
