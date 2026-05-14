@@ -588,30 +588,6 @@ section {
   outline-offset: 4px;
 }
 
-.proof__youtube-host {
-  position: relative;
-  aspect-ratio: 16 / 9;
-  width: 100%;
-  background: #000;
-}
-
-.proof__iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.proof__pending {
-  margin: 0;
-  padding: 2rem 1.5rem;
-  font-size: 16px;
-  line-height: 1.45;
-  color: rgba(255, 255, 255, 0.88);
-  text-align: center;
-}
-
 .proof__video {
   display: block;
   width: 100%;
@@ -633,14 +609,6 @@ section {
 
 .proof__fallback a:hover {
   color: #cfe0ff;
-}
-
-.proof__caption {
-  margin: 14px 0 0;
-  font-size: 13px;
-  line-height: 1.45;
-  color: var(--text-secondary);
-  text-align: center;
 }
 
 @media (prefers-reduced-motion: reduce) {
